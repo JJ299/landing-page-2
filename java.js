@@ -1,7 +1,11 @@
-const navMenu = document.getElementByyId('nav-menu'),
-	toggleMenu = document.getElementByyId('nav-toggle'),
-	closeMenu = document.getElementByyId('nav-close')
+const navMenu = document.getElementById('nav-menu'),
+	toggleMenu = document.getElementById('nav-toggle'),
+	closeMenu = document.getElementById('nav-close')
 
-toggleMenu.addEventListener('click', ()=> {
+toggleMenu.addEventListener('click', ()=>{
 	navMenu.classList.toggle('show')
+})
+
+closeMenu.addEventListener('click', ()=>{
+	navMenu.classList.remove('show')
 })
