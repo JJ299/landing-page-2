@@ -118,3 +118,8 @@ img {
 .show {
 	right: 0;
 }
+
+.home {
+	background-color: var(--first-color);
+	overflow: hidden;
+}
