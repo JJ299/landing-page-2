@@ -158,7 +158,17 @@ img {
 	margin-bottom: 2.5rem;
 }
 
+.home_button {
+	display: inline-block;
+	background-color: var(--first-color-dark);
+	color: var(--white-color);
+	padding: 1.125rem 2rem;
+	border-radius: .5rem;
+}
 
+.home_button:hover {
+	background-color: var(--first-color-darken);
+}
 
 
 
