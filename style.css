@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/* Universal */
+
 :root {
   --header-height: 3rem;
   --first-color: #fca4a6;
@@ -72,6 +74,8 @@ img {
   background-color: var(--first-color);
 }
 
+/* NAVIGATION */
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -125,6 +129,8 @@ img {
   right: 0;
 }
 
+/* HOME */
+
 .home {
   background-color: var(--first-color);
   overflow: hidden;
@@ -175,6 +181,8 @@ img {
 .home_button:hover {
   background-color: var(--first-color-darken);
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
   .body {
