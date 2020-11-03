@@ -175,3 +175,46 @@ img {
 .home_button:hover {
   background-color: var(--first-color-darken);
 }
+
+@media screen and (min-width: 768px) {
+  .body {
+    margin: 0;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+
+  .nav_toggle,
+  .nav_close {
+    display: none;
+  }
+
+  .nav_list {
+    display: flex;
+  }
+
+  .nav_item {
+    margin-left: 3rem;
+    margin-bottom: 0;
+  }
+
+  .home_container {
+    height: 100vh;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: 1fr;
+    row-gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home_img {
+    order: 1;
+    width: 375px;
+    height: 289px;
+  }
+
+  .home_img img {
+    width: 375px;
+  }
+}
