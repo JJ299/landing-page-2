@@ -22,3 +22,6 @@ function move(e){
 		layer.style.transform = `translateX(${x}px) translateY(${y}px)`
 	})
 }
+
+gsap.from('.nav_logo, .nav_toggle', {opacity: 0, duration: 1, delay: 2, y:10})
+gsap.from('.nav_item', {opacity: 0, duration: 1, delay: 2.1, y:30, stragger: 0.2})
