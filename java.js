@@ -9,3 +9,9 @@ toggleMenu.addEventListener('click', ()=>{
 closeMenu.addEventListener('click', ()=>{
 	navMenu.classList.remove('show')
 })
+
+document.addEventListener('mousemove', move)
+
+function move(e) {
+	this.querySelectorAll('.move')
+}
